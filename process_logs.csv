@@ -1,0 +1,14 @@
+timestamp,action,details
+2025-03-15T02:07:05.483768,Initializing Document Compliance Checker,"{""model"": ""gpt-4o-mini""}"
+2025-03-15T02:07:05.783783,Starting compliance analysis,"{""file_id"": ""saas_contract.docx"", ""rules_file"": ""compliance_rules.csv""}"
+2025-03-15T02:07:05.783783,Loading compliance rules,"{""file"": ""compliance_rules.csv""}"
+2025-03-15T02:07:05.784786,Compliance rules loaded,"{""total_rules"": 10, ""active_rules"": 10}"
+2025-03-15T02:07:05.784786,Extracting text from DOCX,"{""file_path"": ""saas_contract.docx""}"
+2025-03-15T02:07:05.796212,DOCX text extraction completed,"{""paragraphs"": 2, ""total_chars"": 1683}"
+2025-03-15T02:07:05.796212,Splitting text into chunks,
+2025-03-15T02:07:05.798446,Text chunking completed,"{""chunks"": 1}"
+2025-03-15T02:07:05.808256,Analyzing chunk 1/1,"{""chunk_size"": 1683, ""start_pos"": 0, ""end_pos"": 1683}"
+2025-03-15T02:07:13.071086,Chunk 1 analysis completed,"{""rules_analyzed"": 5, ""token_usage"": 1699}"
+2025-03-15T02:07:13.073409,Compiling final compliance report,
+2025-03-15T02:07:13.073409,Final report compiled,"{""overall_status"": ""non_compliant"", ""total_violations"": 4}"
+2025-03-15T02:07:13.084387,Report saved,"{""output_path"": ""compliance_report.json""}"

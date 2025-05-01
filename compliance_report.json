@@ -1,0 +1,91 @@
+{
+  "file_id": "saas_contract.docx",
+  "file_name": "saas_contract",
+  "overall_compliance_status": "non_compliant",
+  "timestamp": "2025-03-15T02:07:13.073409",
+  "summary": {
+    "total_rules": 10,
+    "compliant_rules": 6,
+    "non_compliant_rules": 4
+  },
+  "rule_violations": [
+    {
+      "rule_id": "P001",
+      "category": "Pricing & Invoicing",
+      "short_description": "Invoice/Billing Mentions",
+      "violations": [
+        {
+          "evidence": "Payment Due: Within 30 days of invoice date",
+          "explanation": "This statement references payment terms and the invoice date, which violates the rule against mentioning invoicing or billing details.",
+          "location": {
+            "page": 1,
+            "line": 2,
+            "text_context": "\nSOFTWARE AS A SERVICE (SaaS) AGREEMENT\n\nThis Agreement (\"Agreement\") is made on March 15, 2025, between:\nProvider: XYZ Technologies Inc.\nClient: ABC Corporation\n\n1. **Services Provided**  \n   XYZ Technologies Inc. agrees to provide access to its SaaS platform, including cloud storage, data analytics, and automation tools.\n\n2. **Pricing & Payment Terms**  \n   - Subscription Fee: $5,000 per year  \n   - Additional User License: $50 per user per month  \n   - Payment Due: Within 30 days of invoice date  \n   - Late Payment Fee: 2% of the outstanding amount per month  \n\n3. **Confidentiality**  \n   - Both parties agree to maintain strict confidentiality of all shared data and proprietary business information.\n   - Client data stored on the platform will not be shared or disclosed without prior written consent.\n   - Employees and subcontractors of both parties must adhere to confidentiality obligations.\n\n4. **Term & Termination**  \n   - This Agreement is valid for 12 months from the signing date and will automatically renew unless terminated by either party with 30 days' notice.\n   - Termination for cause includes non-payment, violation of terms, or security breaches.\n\n5. **Liability & Data Security**  \n   - XYZ Technologies Inc. shall implement industry-standard security protocols to protect client data.\n   - The company is not liable for data loss due to cyberattacks or force majeure events.\n\nBy signing below, both parties agree to the terms and conditions of this SaaS Agreement.\n\nProvider: ______________________  (XYZ Technologies Inc.)  \nClient: ______________________  (ABC Corporation)  \nDate: ______________________  \n"
+          },
+          "recommendation": "Remove the reference to 'Payment Due' and 'invoice date' to comply with the rule."
+        }
+      ]
+    },
+    {
+      "rule_id": "P002",
+      "category": "Pricing & Invoicing",
+      "short_description": "Monetary Transactions",
+      "violations": [
+        {
+          "evidence": "Subscription Fee: $5,000 per year",
+          "explanation": "The mention of a subscription fee with a currency symbol violates the rule against mentioning monetary transactions.",
+          "location": {
+            "page": 1,
+            "line": 2,
+            "text_context": "\nSOFTWARE AS A SERVICE (SaaS) AGREEMENT\n\nThis Agreement (\"Agreement\") is made on March 15, 2025, between:\nProvider: XYZ Technologies Inc.\nClient: ABC Corporation\n\n1. **Services Provided**  \n   XYZ Technologies Inc. agrees to provide access to its SaaS platform, including cloud storage, data analytics, and automation tools.\n\n2. **Pricing & Payment Terms**  \n   - Subscription Fee: $5,000 per year  \n   - Additional User License: $50 per user per month  \n   - Payment Due: Within 30 days of invoice date  \n   - Late Payment Fee: 2% of the outstanding amount per month  \n\n3. **Confidentiality**  \n   - Both parties agree to maintain strict confidentiality of all shared data and proprietary business information.\n   - Client data stored on the platform will not be shared or disclosed without prior written consent.\n   - Employees and subcontractors of both parties must adhere to confidentiality obligations.\n\n4. **Term & Termination**  \n   - This Agreement is valid for 12 months from the signing date and will automatically renew unless terminated by either party with 30 days' notice.\n   - Termination for cause includes non-payment, violation of terms, or security breaches.\n\n5. **Liability & Data Security**  \n   - XYZ Technologies Inc. shall implement industry-standard security protocols to protect client data.\n   - The company is not liable for data loss due to cyberattacks or force majeure events.\n\nBy signing below, both parties agree to the terms and conditions of this SaaS Agreement.\n\nProvider: ______________________  (XYZ Technologies Inc.)  \nClient: ______________________  (ABC Corporation)  \nDate: ______________________  \n"
+          },
+          "recommendation": "Remove the currency symbol and the specific amount to comply with the rule."
+        },
+        {
+          "evidence": "Additional User License: $50 per user per month",
+          "explanation": "This statement includes a monetary amount with a currency symbol, violating the rule against mentioning monetary transactions.",
+          "location": {
+            "page": 1,
+            "line": 2,
+            "text_context": "\nSOFTWARE AS A SERVICE (SaaS) AGREEMENT\n\nThis Agreement (\"Agreement\") is made on March 15, 2025, between:\nProvider: XYZ Technologies Inc.\nClient: ABC Corporation\n\n1. **Services Provided**  \n   XYZ Technologies Inc. agrees to provide access to its SaaS platform, including cloud storage, data analytics, and automation tools.\n\n2. **Pricing & Payment Terms**  \n   - Subscription Fee: $5,000 per year  \n   - Additional User License: $50 per user per month  \n   - Payment Due: Within 30 days of invoice date  \n   - Late Payment Fee: 2% of the outstanding amount per month  \n\n3. **Confidentiality**  \n   - Both parties agree to maintain strict confidentiality of all shared data and proprietary business information.\n   - Client data stored on the platform will not be shared or disclosed without prior written consent.\n   - Employees and subcontractors of both parties must adhere to confidentiality obligations.\n\n4. **Term & Termination**  \n   - This Agreement is valid for 12 months from the signing date and will automatically renew unless terminated by either party with 30 days' notice.\n   - Termination for cause includes non-payment, violation of terms, or security breaches.\n\n5. **Liability & Data Security**  \n   - XYZ Technologies Inc. shall implement industry-standard security protocols to protect client data.\n   - The company is not liable for data loss due to cyberattacks or force majeure events.\n\nBy signing below, both parties agree to the terms and conditions of this SaaS Agreement.\n\nProvider: ______________________  (XYZ Technologies Inc.)  \nClient: ______________________  (ABC Corporation)  \nDate: ______________________  \n"
+          },
+          "recommendation": "Remove the currency symbol and the specific amount to comply with the rule."
+        }
+      ]
+    },
+    {
+      "rule_id": "P004",
+      "category": "Pricing & Invoicing",
+      "short_description": "Discounts & Tax Mentions",
+      "violations": [
+        {
+          "evidence": "Late Payment Fee: 2% of the outstanding amount per month",
+          "explanation": "This statement refers to a late payment fee, which violates the rule against mentioning discounts, taxation, or additional fees.",
+          "location": {
+            "page": 1,
+            "line": 2,
+            "text_context": "\nSOFTWARE AS A SERVICE (SaaS) AGREEMENT\n\nThis Agreement (\"Agreement\") is made on March 15, 2025, between:\nProvider: XYZ Technologies Inc.\nClient: ABC Corporation\n\n1. **Services Provided**  \n   XYZ Technologies Inc. agrees to provide access to its SaaS platform, including cloud storage, data analytics, and automation tools.\n\n2. **Pricing & Payment Terms**  \n   - Subscription Fee: $5,000 per year  \n   - Additional User License: $50 per user per month  \n   - Payment Due: Within 30 days of invoice date  \n   - Late Payment Fee: 2% of the outstanding amount per month  \n\n3. **Confidentiality**  \n   - Both parties agree to maintain strict confidentiality of all shared data and proprietary business information.\n   - Client data stored on the platform will not be shared or disclosed without prior written consent.\n   - Employees and subcontractors of both parties must adhere to confidentiality obligations.\n\n4. **Term & Termination**  \n   - This Agreement is valid for 12 months from the signing date and will automatically renew unless terminated by either party with 30 days' notice.\n   - Termination for cause includes non-payment, violation of terms, or security breaches.\n\n5. **Liability & Data Security**  \n   - XYZ Technologies Inc. shall implement industry-standard security protocols to protect client data.\n   - The company is not liable for data loss due to cyberattacks or force majeure events.\n\nBy signing below, both parties agree to the terms and conditions of this SaaS Agreement.\n\nProvider: ______________________  (XYZ Technologies Inc.)  \nClient: ______________________  (ABC Corporation)  \nDate: ______________________  \n"
+          },
+          "recommendation": "Remove the reference to 'Late Payment Fee' to comply with the rule."
+        }
+      ]
+    },
+    {
+      "rule_id": "P005",
+      "category": "Pricing & Invoicing",
+      "short_description": "Contractual Payment Terms",
+      "violations": [
+        {
+          "evidence": "Payment Due: Within 30 days of invoice date",
+          "explanation": "This statement outlines a payment obligation, which violates the rule against mentioning contractual payment terms.",
+          "location": {
+            "page": 1,
+            "line": 2,
+            "text_context": "\nSOFTWARE AS A SERVICE (SaaS) AGREEMENT\n\nThis Agreement (\"Agreement\") is made on March 15, 2025, between:\nProvider: XYZ Technologies Inc.\nClient: ABC Corporation\n\n1. **Services Provided**  \n   XYZ Technologies Inc. agrees to provide access to its SaaS platform, including cloud storage, data analytics, and automation tools.\n\n2. **Pricing & Payment Terms**  \n   - Subscription Fee: $5,000 per year  \n   - Additional User License: $50 per user per month  \n   - Payment Due: Within 30 days of invoice date  \n   - Late Payment Fee: 2% of the outstanding amount per month  \n\n3. **Confidentiality**  \n   - Both parties agree to maintain strict confidentiality of all shared data and proprietary business information.\n   - Client data stored on the platform will not be shared or disclosed without prior written consent.\n   - Employees and subcontractors of both parties must adhere to confidentiality obligations.\n\n4. **Term & Termination**  \n   - This Agreement is valid for 12 months from the signing date and will automatically renew unless terminated by either party with 30 days' notice.\n   - Termination for cause includes non-payment, violation of terms, or security breaches.\n\n5. **Liability & Data Security**  \n   - XYZ Technologies Inc. shall implement industry-standard security protocols to protect client data.\n   - The company is not liable for data loss due to cyberattacks or force majeure events.\n\nBy signing below, both parties agree to the terms and conditions of this SaaS Agreement.\n\nProvider: ______________________  (XYZ Technologies Inc.)  \nClient: ______________________  (ABC Corporation)  \nDate: ______________________  \n"
+          },
+          "recommendation": "Remove the reference to 'Payment Due' to comply with the rule."
+        }
+      ]
+    }
+  ]
+}

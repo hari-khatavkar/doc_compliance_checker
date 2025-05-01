@@ -1,0 +1,11 @@
+Rule ID,Category,Short Description,Full Description,Active
+P001,Pricing & Invoicing,Invoice/Billing Mentions,"Should not contain references to invoicing or billing details, including terms like 'invoice number, amount due, payment terms, billing cycle'.",1
+P002,Pricing & Invoicing,Monetary Transactions,"Should not mention monetary transactions associated with pricing, fees, or payments, including currency symbols (e.g., '$', 'USD', 'EUR').",1
+P003,Pricing & Invoicing,Pricing Structure Disclosure,"Should not disclose pricing structures or rate breakdowns, including 'product/service pricing tables, total cost calculations, or unit pricing details'.",1
+P004,Pricing & Invoicing,Discounts & Tax Mentions,"Should not include references to discounts, taxation, or additional fees, such as 'rebates, VAT/GST, tax calculations, surcharges, or late fees'.",1
+P005,Pricing & Invoicing,Contractual Payment Terms,"Should not contain contractual payment obligations or financial commitments, including terms like 'net 30, advance payment, installment terms, or late payment penalties'.",1
+C001,Confidential Market Intelligence,Competitor Mentions & Comparisons,"Should not mention competitor names or engage in direct competitive comparisons, including 'product benchmarking, competitive analysis, or price-matching strategies'.",1
+C002,Confidential Market Intelligence,Market Share & Growth Insights,"Should not disclose market share insights or growth projections, such as 'industry positioning, revenue forecasts, or business expansion plans'.",1
+C003,Confidential Market Intelligence,Business Strategy & Roadmap,"Should not reveal confidential business strategy or roadmap details, including 'internal product development plans, M&A activities, or go-to-market strategies'.",1
+C004,Confidential Market Intelligence,Competitive Pricing & Cost Analysis,"Should not contain references to competitive pricing models or cost structures, including 'pricing intelligence, competitor rate analysis, or internal pricing strategies'.",1
+C005,Confidential Market Intelligence,Proprietary Market Research & Intelligence,"Should not include proprietary market research or non-public industry data, such as 'internal research reports, customer sentiment analysis, or exclusive market intelligence'.",1
